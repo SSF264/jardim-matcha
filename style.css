@@ -35,3 +35,8 @@ footer{border-top:1px solid var(--line)}.footer{font-size:13px;color:var(--muted
 button.button{border:0;font:inherit;font-weight:650;cursor:pointer}.support-section{display:grid;grid-template-columns:1fr auto;gap:36px;align-items:center;border:1px solid var(--line);border-radius:20px;padding:32px 40px;background:#edf0e1}.support-section p{max-width:590px;color:var(--muted)}.support-section h2{font-size:38px}.support-section .status{font-size:13px;margin-top:9px}dialog{max-width:500px;width:calc(100% - 36px);padding:30px;border:1px solid var(--line);border-radius:20px;background:var(--white);color:var(--ink)}dialog::backdrop{background:#1d322b88}dialog p{line-height:1.6}dialog h2{font-size:32px}.dialog-close{float:right;border:0;background:transparent;font-size:27px;cursor:pointer;color:var(--ink)}@media(max-width:650px){.support-section{grid-template-columns:1fr;padding:24px;gap:12px}.support-section h2{font-size:31px}}
 
 dialog{max-height:90dvh;overflow-y:auto;box-sizing:border-box}.pix-qr{display:block;margin:20px auto 8px;max-width:100%;height:auto;background:#fff}.pix-amount{text-align:center;font-size:24px;font-weight:700}#pix-code{box-sizing:border-box;width:100%;margin:12px 0;padding:12px;font:12px monospace;overflow-wrap:anywhere}#support-dialog details{margin-top:16px}#pix-status{font-size:14px}.pix-qr svg{width:100%}
+
+/* Links legais no rodapé */
+.jm-legal-links{display:flex;flex-wrap:wrap;gap:7px 16px;align-items:center;justify-content:center;margin-top:14px;font:12px/1.6 system-ui,sans-serif}
+.jm-legal-links a{color:var(--green);text-decoration:underline;text-decoration-color:#b7c5a7;text-underline-offset:3px}
+.jm-legal-links a:hover{color:var(--ink)}
